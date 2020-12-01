@@ -1,14 +1,18 @@
 import React from 'react';
 
 import Layout from './Layout';
+import Logo from './Logo';
+import Contact from './Contact';
+import AboutUs from './AboutUs';
+import Recordings from './Recordings';
 
 const Main = () => {
     return (
         <Layout 
-            topLeft={ <h1>Logo</h1> }
-            topRight={ <h1>Contact/Call to action/Timeline</h1> }
-            bottomLeft={ <h1>About Us</h1> }
-            bottomRight={ <h1>Recordings/Videos</h1> }
+            topLeft={ <Logo/> }
+            topRight={ <Contact/> }
+            bottomLeft={ <AboutUs/> }
+            bottomRight={ <Recordings/> }
         />
     )
 }
