@@ -37,7 +37,7 @@ const Contact = () => {
                 <input type="text" placeholder="Name.." value={ name } onChange={ handleNameChange } />
                 <input type="tel" placeholder="Telefonnummer..." value={ phone } onChange={ handlePhoneChange } />
                 <input type="email" placeholder="Email-Adresse..." value={ email } onChange={ handleEmailChange } />
-                <textarea style={{maxHeight: '20vh'}} type="text" placeholder="Schicken sie uns eine Nachricht..." value={ message } onChange={ handleMessageChange }/>
+                <textarea style={{maxHeight: '20vh', height: '15vh', minHeight: '10vh'}} type="text" placeholder="Schicken sie uns eine Nachricht..." value={ message } onChange={ handleMessageChange }/>
             </div>
             <Form isValid={ isValid } name={ name } email={ email } phone={ phone } message={ message }/>
         </div>
