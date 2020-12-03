@@ -2,8 +2,8 @@ import React from 'react';
 
 const AboutUs = () => {
     return (
-        <div className="p-4 w-100 h-100 overflow-overlay">
-            <h1 className="text-center border-bottom mb-4">Über uns</h1>
+        <div className="d-flex flex-column justify-content-center align-items-center p-4 w-100 h-100 overflow-overlay text-center">
+            {/* <h1 className="text-center border-bottom mb-4">Über uns</h1> */}
             <p>
                 {'capp & ella, das sind elf Grazerinnen und Grazer, die sich auf anderem Wege nie getroffen hätten. Uns verbindet die pure Freude am Singen und die Gänsehaut, die aufsteigt, wenn die Luft in der Frequenz unserer Stimmen schwingt. Weniger poetisch gesprochen: Wir arbeiten sehr hart an uns und unserer Musik und freuen uns wie Kinder, wenn unsere Arbeit Früchte trägt. '}
             </p>

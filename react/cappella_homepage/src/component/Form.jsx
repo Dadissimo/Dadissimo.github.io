@@ -19,7 +19,7 @@ render() {
             <input type="hidden" name="email" value={ email }/>
             <input type="hidden" name="phone" value={ phone }/>
             <input type="hidden" name="message" value={ message }/>
-            {isValid && <button>Senden</button>}
+            {isValid && <button type="button" class="btn btn-danger mt-1 w-50 float-right">Senden</button>}
             {status === "SUCCESS" && <p>Danke für die Nachricht!</p>}
             {status === "ERROR" && <p>Ooops! Es ist ein fehler aufgetreten.</p>}
         </form>

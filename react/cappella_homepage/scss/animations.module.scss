@@ -1,0 +1,25 @@
+.buttonAnimation {
+    display: block;
+    margin: 0 auto;
+  }
+.buttonAnimationRight[animate='1'] {
+    animation: slide-right 1s 1;
+}
+.buttonAnimationLeft[animate='1'] {
+  animation: slide-left 1s 1;
+}
+
+
+@keyframes slide-right {
+  100% {
+    transform: translate(5vw);
+    opacity: 0;
+  }
+}
+
+@keyframes slide-left {
+  100% {
+    transform: translate(-5vw);
+    opacity: 0;
+  }
+}

@@ -4,18 +4,18 @@ const Layout = ({topLeft, topRight, bottomLeft, bottomRight}) => {
     return (
         <div className="wp-100 hp-100">
             <div className="hp-50 d-flex flex-row justify-content-around">
-                <div className="wp-50 border border-light d-flex align-items-center justify-content-center" style={{backgroundColor: '#b0cbe8'}}>
+                <div className="bg-secondary wp-50 border border-light d-flex align-items-center justify-content-center" >
                     {topLeft}
                 </div>
-                <div className="wp-50 border border-light d-flex align-items-center justify-content-center text-light"  style={{backgroundColor: '#04074d'}}>
+                <div className="bg-primary wp-50 border border-light d-flex align-items-center justify-content-center text-light"  >
                     {topRight}
                 </div>
             </div>
             <div className="hp-50 d-flex flex-row justify-content-around">
-                <div className="wp-50 border border-light d-flex align-items-center justify-content-center text-light"  style={{backgroundColor: '#04074d'}}>
+                <div className="bg-primary wp-50 border border-light d-flex align-items-center justify-content-center text-light"  >
                     {bottomLeft}
                 </div>
-                <div className="wp-50 border border-light d-flex align-items-center justify-content-center"  style={{backgroundColor: '#b0cbe8'}}>
+                <div className="bg-secondary wp-50 border border-light d-flex align-items-center justify-content-center"  >
                     {bottomRight}
                 </div>
             </div>

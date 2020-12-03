@@ -2,8 +2,7 @@ import React from "react"
 
 import Main from "../component/Main";
 
-import "../styles/main.css";
-import 'bootstrap/dist/css/bootstrap.min.css'
+import "../../scss/main.scss";
 
 export default function Home() {
   return <Main/>
